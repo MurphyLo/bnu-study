@@ -8,7 +8,6 @@ import requests
 from datetime import datetime, timedelta
 from urllib3.exceptions import InsecureRequestWarning
 from bs4 import BeautifulSoup
-from des import *
 
 warnings.filterwarnings('ignore', category=InsecureRequestWarning)
 
