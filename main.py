@@ -68,6 +68,7 @@ if __name__ == '__main__':
     u = '20yydddddxxx'
     p = 'enjoyoureverie'
 
+    seat_id = 54000
     start = 9
     end = 21
 
@@ -80,7 +81,7 @@ if __name__ == '__main__':
     while True:
         if time.time() > u_mark:
             time.sleep(0.200)
-            resp = self_res(54850, start, end)
+            resp = self_res(seat_id, start, end)
             soup = BeautifulSoup(resp.content, 'lxml')
             info = soup.find('div', attrs={'class': 'layoutSeat'}).get_text(separator='\n', strip=True)
             print(info)
