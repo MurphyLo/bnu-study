@@ -1,26 +1,27 @@
 # bnu-study
-***library reverie***
+***A Library Reverie***
 
-### requirements
+### Prerequisites
 
-- `pyexecjs`
-- `requests`
-- `bs4`
-- `des.js`
+- `pyexecjs` whispers to the wind
+- `requests` as letters to the void
+- `bs4` dreams of structure
+- `des.js` holds secrets untold
 
-### how to
+### How to Begin
 
-1. Install required packages.
-2. Modify `main.py`
-    - fill in `u` and `p`.
-    - change `start`, `end` to your desired time range for reverie.  
-    - change `seat_id` to your favorite seat id (id parameter from uri `/freeBook/ajaxGetTime` in Developer Tools's Network page).
+1. Gather the whispers, letters, dreams, and secrets.
+2. In the heart of `main.py`, inscribe:
+    - Your account number and password within `u` and `p`.
+    - Time’s tender embrace between `start` and `end`.
+    - Your chosen sanctuary, `seat_id`, where you'll dwell (find this in the labyrinth of Developer Tools’ Network page).
       <br><img src="https://github.com/MurphyLo/bnu-study/assets/69335326/37d67ad4-2531-41f9-a5ea-f956c93c7d9b" alt="" width="500">
-3. Make sure `main.py`, `des.js` are in the same directory and run `main.py` **before 19:30**.
+4. Unite `main.py` and `des.js` beneath the same stars/directory, and let `main.py` dance **before 19:30**.
 
-### automate with crontab
+### Automate the Dance with Crontab
 
-1. Include shebang line at the beginning of `main.py`: `#!/path/to/python_interpreter`
-2. `chmod u+x /path/to/main.py`.
-3. `crontab -e`
-4. Add `29    19    *    *    *    /path/to/main.py >> /path/to/seat.log 2>&1`
+1. At dawn of `main.py`, mark it with a shebang: `#!/path/to/python_interpreter`.
+2. Bless it with the power to execute: `chmod u+x /path/to/main.py`.
+3. Call forth the crontab’s song: `crontab -e`.
+4. Weave the following verse into the crontab’s fabric:
+   `29    19    *    *    *    /path/to/main.py >> /path/to/seat.log 2>&1`
